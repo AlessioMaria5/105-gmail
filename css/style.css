@@ -1,0 +1,36 @@
+* {
+
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-image: url(https://media.istockphoto.com/photos/laminate-wooden-floor-texture-background-picture-id1083302826?b=1&k=20&m=1083302826&s=170667a&w=0&h=ePdma8I7u7KHs2YbehQSVcCX9qay5iPr3wynsWnzFZ0=);
+    margin: auto;
+    width: 60%;
+}
+
+
+header {
+
+    margin-top: 20px;
+}
+
+header h2 {
+
+    display: inline;
+    margin: 5px;
+    color: white;
+}
+
+#logo {
+
+    width: 10%;
+}
+
+main {
+
+    margin: 10px;
+}
