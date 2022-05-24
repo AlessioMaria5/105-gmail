@@ -34,3 +34,18 @@ main {
 
     margin: 10px;
 }
+
+#msgcircle {
+
+    background-color: orange;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+h4 {
+
+    color: white;
+}
