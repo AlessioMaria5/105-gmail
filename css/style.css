@@ -38,12 +38,7 @@ main {
 #msgcircle {
 
     background-color: orange;
-    border-radius: 50%;
-    font-size: 20px;
-    padding: 5px;
 
-    box-sizing: border-box;
-    display: inline-block;
 }
 
 h4 {
@@ -51,15 +46,11 @@ h4 {
     color: white;
 }
 
-.ricerca {
+.emailrow {
 
-    margin-bottom: 10px;
+    padding: 5px;
+    border: solid 2px;
     
-
-}
-
-.descrizione {
-
 
 }
 
@@ -67,4 +58,36 @@ h4 {
 
     margin-right: 10px;
     display: inline-block;
+}
+
+.read {
+
+    background-color: white;
+}
+
+.unread {
+
+    background-color: grey;
+}
+
+.emailrow span {
+
+    color: lightgrey;
+}
+
+h2 {
+
+    text-align: center;
+}
+
+.emailrow strong:before{
+
+  content: '\2605';
+  padding: 5px;
+
+}
+
+hr {
+
+    margin: 10px;
 }
